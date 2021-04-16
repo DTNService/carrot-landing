@@ -18,7 +18,7 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         script: |
-          cd /home/hivv/service/${{github.repository}}/
+          cd /home/hivv/${{github.repository}}/
           git pull origin develop
           yarn install
           pm2 restart dacha
