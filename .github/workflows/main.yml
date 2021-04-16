@@ -21,4 +21,4 @@ jobs:
           cd /home/${{ secrets.USERNAME }}/${{github.repository}}/
           git pull origin develop
           yarn install
-          pm2 restart dacha
+          pm2 restart ${{github.repository}}
