@@ -22,7 +22,9 @@ a{
   justify-content: center;
   align-items: center;
 }
-
+.wrapper section a img{
+  display: block;
+}
 .wrapper .container{
   padding: 10% 0;
 }
@@ -58,7 +60,7 @@ a{
     height: auto;
   }
   .wrapper .logo img{
-    width: 30vw;
+    width: 15vw;
   }
   .wrapper section{
     width: 100vw;
